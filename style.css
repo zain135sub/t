@@ -1,0 +1,16 @@
+canvas{
+    border: 3px aqua double;
+    border-radius: 23px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 4px 4px 30px lightskyblue};
+    to{box-shadow: 4px 4px 30px whitesmoke};
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
